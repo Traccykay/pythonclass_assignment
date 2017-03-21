@@ -5,7 +5,7 @@ def is_palindrome(a):
 	ind=0
 	check=True
 	while ind<len(a):
-		if a[ind]==n[-1-ind]:
+		if a[ind]==a[-1-ind]:
 			ind+=1
 			return True
 		return False
